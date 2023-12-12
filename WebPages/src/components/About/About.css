@@ -1,0 +1,84 @@
+.section2{
+    width: 100vw;
+    height: 83%;
+}
+.section2 .heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading h3{
+    font-size: 1vw;
+    color: #5b5656;
+}
+.heading h1{
+    font-size: 3vw;
+}
+.abtContent{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.abtContent .left{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: red; */
+}
+.abtContent .img{
+    width: 20vw;
+    position: absolute;
+    top: 30%;
+}
+
+.abtContent .right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.abtContent .right .expedu{
+    width: fit-content;
+    display: flex;
+    margin-left: 5vw;
+    justify-content: center;
+    gap: 20px;
+    /* background-color: aqua; */
+}
+
+.abtContent .right .expedu .cont{
+    width: 20vw;
+    border: 1px solid black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.expedu .cont img{
+    width: 2vw;
+}
+.expedu .cont h1{
+    font-size: 1.2vw;
+    font-weight: 700;
+    /* padding: 2px; */
+}
+.expedu .cont h4{
+    font-size: 1vw;
+    font-weight: 400;
+    color: #484646;
+}
+.abtContent .right p{
+    width: 40vw;
+    font-size: 1vw;
+    font-weight: 400;
+    padding: 1vw 5vw;
+    text-align: justify;
+}

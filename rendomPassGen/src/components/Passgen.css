@@ -1,0 +1,104 @@
+.heading{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+.container{
+    width: 400px;
+    height: 250px;
+    margin: 5px 35%;
+    border: 1px solid white;
+    border-radius: 20px;
+    /* display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column; */
+    padding: 40px;
+    position: relative;
+}
+
+.displayField{
+    width: 100%;
+    display: flex;
+
+}
+
+#copyBtn{
+    background-color: rgb(236, 148, 148);
+    padding: 7px 20px;
+    margin-left: -18px;
+    border: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 10px;
+    font-weight:600;
+    text-transform: uppercase;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#copyBtn:active{
+    background-color: #dadada;
+}
+#displayPass{
+    width: 100%;
+    height: 45px;
+    border: 0 solid black;
+    display: block;
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+#displayPass:focus{
+    outline: none;
+}
+.inputField{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#range{
+    padding: 10px;
+    width: 100px;
+}
+.lengthBar{
+    color:white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
+}
+.includeNum{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.includeChar{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+button{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    padding: 10px 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+button:active{
+    background-color: #dadada;
+    scale: 1.01;
+}

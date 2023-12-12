@@ -1,0 +1,33 @@
+.github{
+    width: 100vw;
+    height: 65vh;
+}
+
+.github h1{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.github h4{
+    /* display: inline; */
+    /* text-align: center; */
+    margin-left: 400px;
+
+}
+
+.github h4:nth-child(2){
+    margin-top: 100px;
+}
+
+.github p{
+    margin-left: 400px;
+    font-size: 1.1rem;
+}
+
+.github img{
+    width: 250px;
+    border-radius: 10px;
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}

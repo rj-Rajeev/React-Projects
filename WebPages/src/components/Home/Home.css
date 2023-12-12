@@ -1,0 +1,83 @@
+.section1{
+    width: 100vw;
+    height: 83%;
+    display: flex;
+    margin: 80px 0 ;
+}
+.section1 .left{
+    width: 50%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.left img{
+    width: 25vw;
+}
+.section1 .right{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(255, 0, 0); */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5vw;
+}
+
+.right h3{
+    font-size: 1vw;
+    color: #5b5656;
+}
+.right h1{
+    font-size: 2.2vw;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.right h2{
+    font-size: 1.8vw;
+    word-spacing: .5vw;
+    font-weight: 600;
+    color: #5b5656;
+}
+
+.right .btn{
+    margin-top: 15px;
+    padding: 20px 10px;
+}
+.right .btn button:hover{
+    cursor: pointer;
+}
+.right .btn button{
+    font-size: .9vw;
+    font-weight: 700;
+    padding: 1vw;
+    border: .5px solid black;
+    border-radius: 100px;
+}
+/* .right .btn .btn1{
+} */
+.right .btn .btn2{
+    background-color: #000;
+    color: #fff;
+    margin-left: 2vw;
+}
+.btn2 a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1vw;
+
+}
+.right .smlinks{
+    width: fit-content;
+    /* background-color: red; */
+    margin-left: 4vw;
+    margin-top: .8vw;
+}
+.right .smlinks img{
+    padding-inline: 1vw ;
+}
+.right .smlinks img:hover{
+    cursor: pointer;
+}

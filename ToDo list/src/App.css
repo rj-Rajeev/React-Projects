@@ -1,0 +1,53 @@
+
+.inputField{
+  width: 100vw;
+  height: 30vh;
+  background-color: #9f9b9b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  position: fixed;
+}
+
+.input{
+  width: 500px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  padding: 2px 15px;
+  font-weight: 500;
+}
+
+button{
+  padding: 1vw 2vw;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.tasklist{
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(56, 134, 165);
+  padding: 30vh 0 50px 150px;
+}
+
+.tasklist li{
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+.tasklist li button{
+  padding: .3vw .5vw;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+  margin: 0 20px;
+}
